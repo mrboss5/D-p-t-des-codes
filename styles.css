@@ -1,0 +1,437 @@
+body{
+    margin: 0%;
+    padding: 0%;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(199, 148, 37, 0.411);
+    
+}
+
+/*********************************************************************HEADER******************************/
+
+header{
+    width: 100%;
+    display: flex;
+    background-color: black;
+    border: 2px solid goldenrod;
+    border-radius: 0 0 0 60PX;
+    
+
+}
+
+.logo{
+    display: flex;
+    text-decoration: none;
+    margin: 20px;
+    
+    
+}
+
+.liste{
+    display: flex;
+    gap: 4rem;
+    margin: 20px 0 0 300px;
+    list-style-type: none;
+    align-items: center;
+    
+    
+}
+
+.liste li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: goldenrod;
+}
+
+.liste li a:hover{
+     border-bottom: 2px solid rgb(150, 130, 18);
+}
+
+.btn{
+    display: flex;
+    margin: 50px 0 10px 10rem;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: darkblue;
+    color: white;
+    padding: -1%;
+    border-radius: 0.5rem;
+    align-items: center;
+    height: 2rem;
+    border: 2px solid darkslategray;
+    
+}
+
+/**********************************************************************Main************************************************/
+
+
+
+main{
+    margin: 4%;
+    width: 90%;
+    height: 860px;
+    background-color:white;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-evenly;
+    justify-content: space-evenly;
+    
+}
+
+article{
+    
+    height: 20rem;
+    width: 25rem;
+    border-radius: 0 0 0 60px;
+    position:relative;
+   
+    
+
+
+}
+
+article:nth-child(odd){
+    height: 25rem;
+    
+   
+}
+
+article:nth-child(5){
+    bottom: 4rem;
+}
+
+p{
+    font-size: 1.2em;
+    color: white;
+    background-color: rgb(237, 155, 14);
+    width: 84%;
+    margin: 4%;
+    border-radius: 0.2rem;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    bottom: 11rem;
+    z-index: 10;
+    
+    
+    
+}
+
+h2{
+    color: white;
+    position: absolute;
+    bottom: 8rem;
+    right: 4.2rem;
+    z-index: 2;   
+}
+ 
+h6{
+    color: white;
+    position: absolute;
+    bottom: 4.8rem;
+    left: 2.9rem;
+    z-index: 2;
+}
+
+.h61{
+    color: white;
+    position: absolute;
+    bottom: 3rem;
+    left: 2.9rem;
+    z-index: 2;
+}
+
+.h2-1{
+    position: absolute;
+    left: 1.3rem;
+    bottom: 6.8rem;
+    width: 100%;
+}
+
+.h2-2{
+    position: absolute;
+    bottom: 6.5rem;
+    left: 1.3rem;
+}
+
+.h2-3{
+    position: absolute;
+    bottom: 6.7rem;
+    left: 1.3rem;
+}
+
+.h2-4{
+    position: absolute;
+    bottom: 6.7rem;
+    left: 1.3rem;
+
+}
+
+.h2-5{
+    position: absolute;
+    bottom: 6.7rem;
+    left: 1.3rem;
+    font-size: 1.2em;
+    width:100%;
+
+}
+
+
+
+.icon1{
+    position: absolute;
+    bottom: 6rem;
+    right: 22.7rem;
+    z-index: 2;
+}
+
+.icon2{
+    position: absolute;
+    bottom: 4rem;
+    right: 22.7rem;
+    z-index: 2;
+
+}
+
+.photo1::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(22, 22, 23, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 60px ;
+
+}
+
+.photo2::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(22, 22, 23, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 60px ;
+
+}
+
+
+.photo3::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(22, 22, 23, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 60px ;
+}
+
+.photo4::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(22, 22, 23, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 60px ;
+
+}
+
+.photo5::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(22, 22, 23, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 60px ;
+
+}
+
+.photo6::after{
+    content: "";
+    position: absolute;
+    z-index: 1;
+    background-color: rgba(22, 22, 23, 0.5);
+    width: 100%;
+    height: 100%;
+    border-radius:0 0 0 60px ;
+
+}
+
+
+
+
+.photo1 {
+
+    background-image: url(img2/iStock-874794192-740x400.jpg);
+    
+ 
+}
+
+.photo2{
+    background-image: url(img2/iStock-941785096-740x400.jpg);
+
+}
+
+.photo3{
+    background-image:url(img2/iStock-941463638-740x400.jpg);
+    background-position: 50%;
+    
+    
+}
+
+.photo4{
+    background-image: url(https://www.afec.fr/app/uploads/2023/01/iStock-837343616-740x400.jpg);
+    background-position: 50%;
+}
+
+.photo5{
+    background-image: url(https://www.afec.fr/app/uploads/2022/10/iStock-578806154-740x400.jpg);
+    background-position: 40%;
+}
+
+.photo6{
+    background-image: url(https://www.afec.fr/app/uploads/2022/10/Sans-titre-6-740x400.png);
+    background-position: 70%;
+}
+/******************************************************************MEDIA***************************************************/
+
+
+/******************************************************************TABLETTE************************************************/
+
+@media only screen  and (min-width:768px) and (max-width:928px) {
+
+    
+     main{
+        background-color: blue;
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        
+
+    }
+
+    header{
+        width:100%;
+    }
+    
+   article:nth-child(1n+0){
+    background-color: brown;
+    margin: 6%;
+    width: 70vh;
+    height: 26vh;
+    bottom: 1rem;
+   }
+
+
+   article{
+    height: 30vh;
+    
+   }
+
+   p{
+    width: 50%;
+    position: absolute;
+    bottom: 9rem;
+   }
+   
+   .btn{
+    width: 20%;
+    margin: 50px 0 10px 17rem;
+   }
+
+   .liste{
+    width: 10%;
+    gap: 2rem;
+    margin: 20px 0 0 40px;
+   }
+
+
+   h2{
+    color: white;
+    position: absolute;
+    bottom: 5rem;
+    right:  19rem;
+    z-index: 2;   
+}
+
+.h61{
+    color: white;
+    position: absolute;
+    bottom: 0.4rem;
+    left: 2.9rem;
+    z-index: 2;
+}
+ 
+h6{
+    color: white;
+    position: absolute;
+    bottom: 2.4rem;
+    left: 2.9rem;
+    z-index: 2;
+}
+
+   .icon1{
+    position: absolute;
+    bottom: 3.6rem;
+    right: 37rem;
+    z-index: 2;
+}
+
+.icon2{
+    position: absolute;
+    bottom: 1.8rem;
+    right: 37rem;
+    z-index: 2;
+
+}
+
+.h2-1,.h2-2,.h2-3,.h2-4,.h2-5{
+    position: absolute;
+    bottom: 5.5rem;
+}
+
+
+}
+
+/********************************************************************PORTABLE**************************************/
+
+
+@media only screen and (min-width:425px) and (max-width:696px){
+
+    main{
+        width: 100%;
+        height: 70%;
+        background-color: plum;
+        
+    }
+
+    article{
+        margin: 8%;
+        height: 40vh;
+    }
+
+    article:nth-child(1n+0){
+        height: 40vh;
+        bottom: 1rem;
+        
+    }
+}
+
+
+@media only screen and (min-width:1024px) and (max-width:1392px) {
+
+    main{
+        background-color: black;
+        width: 100%;
+        height: 100%;
+        margin: 5%;
+
+    }
+    
+    
+    
+}
